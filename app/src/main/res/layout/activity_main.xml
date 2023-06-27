@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCalculadora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculadora básica" />
+
+    <Button
+        android:id="@+id/btnJogoVelha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jogo da velha" />
+
+    <Button
+        android:id="@+id/btnAgendaTelefonica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agenda telefônica" />
+
+    <Button
+        android:id="@+id/btnMostrarMapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar um mapa" />
+
+    <Button
+        android:id="@+id/btnBlocoNotas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bloco de notas" />
+
+    <Button
+        android:id="@+id/btnJogoMemoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jogo de memória" />
+
+</LinearLayout>
